@@ -6,9 +6,9 @@ RUN apt-get update
 # install nodejs, npm and git
 RUN apt-get install -y nodejs npm git git-core
 
-COPY . /src
+COPY . . 
 
-RUN cd /src; npm install
+RUN cd src; npm install;
 
 EXPOSE 8080
 
