@@ -1,4 +1,4 @@
-FROM gliderlabs/alpine:3.1
+FROM ubuntu:12.04
 
 # make sure apt is up to date
 RUN apt-get update
@@ -6,6 +6,12 @@ RUN apt-get update
 # install nodejs, npm and git
 RUN apt-get install -y nodejs npm git git-core
 
-ADD shart.sh /tmp.
-RUN chmod +x /tmp/start.sh
-CMD ./tmp/startapp.sh
+COPY . /src
+
+RUN cd /src; npm install
+
+EXPOSE 8080
+
+# ADD startapp.sh /tmp.
+# RUN chmod +x /tmp/startapp.sh
+# CMD ./tmp/startapp.sh
