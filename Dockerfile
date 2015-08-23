@@ -1,11 +1,5 @@
 FROM gliderlabs/alpine:3.1
+WORKDIR /tmp/resume
+ADD . .
 
-# make sure apt is up to date
-RUN apt-get update
-
-# install nodejs, npm and git
-RUN apt-get install -y nodejs npm git git-core
-
-ADD shart.sh /tmp.
-RUN chmod +x /tmp/start.sh
-CMD ./tmp/startapp.sh
+CMD rm -rf /www/resume && cp -R /tmp/resume /www/resume
