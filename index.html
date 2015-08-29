@@ -6,7 +6,6 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="stylesheet" href="style.css">
-	<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
 	<title>Nikhil Mashettiwar</title>
 
 
@@ -14,19 +13,31 @@
 
 <body class="holy-grail">
 	<header>
-		<li>Nikhil Mashettiwar</li>
+		<label>Nikhil Mashettiwar</label>
+		<div class="info">
+			<ul>
+				<li>Phone: 908-316-4313</li>
+				<li>Location: Boston, MA</li>
+			</ul>
+			<ul>
+				<li>Github: <strong><a href="http://github.com/nikmash">http://github.com/nikmash</a></strong></li>
+				<li>Mail: nikhil@mashettiwar.com</li>
+			</ul>
+		</div>
 	</header>
 	<div class="body">
-		<div class="sidebar-first sidebar">
-			<h1 class="header">Dialects</h1>
+		<section class="sidebar-first sidebar">
+			<h1>Dialects</h1>
 			<li>Node.js</li>
 			<li>Javascript</li>
 			<li>REST API</li>
-			<li>C</li>
 			<li>Java</li>
 			<li>Python</li>
+			<li>C</li>
 			<li>OAuth</li>
 			<li>MongoDB</li>
+			<li>Postgresql</li>
+			<li>MySQL</li>
 			<li>jQuery</li>
 			<li>CSS</li>
 			<li>Express.js</li>
@@ -37,47 +48,78 @@
 			<li>Apps Script</li>
 			<li>Jenkins</li>
 			<li>Docker</li>
-		</div>
-		<div class="content">
-			<h1 class="header">Projects</h1>
-			<!-- <ul>
+		</section>
+		<section class="content">
+			<h1>Experience</h1>
+			<ul>
+				<li>
+					<h2 class="title">Clora</h2>
+					<strong>June 2015 - Present</strong>
+				</li>
+				<li>
+					<label class="position">Co-Founder</label>
+				</li>
+				<li>
+					<p> Developed an algorithm that finds the perfect consultant based on requirements given by the company seeking talent. Architected and developed a REST API for Clora's web platform.</p>
+				</li>
+			</ul>
+			<ul>
+				<li>
+					<h2 class="title">DocuSign</h2>
+					<strong>August 2014 - Present</strong>
+				</li>
+				<li>
+					<label class="position">Software Engineer</label>
+				</li>
+				<li>
+					<p>Developed an open source Node.js SDk which provided developers with convenient functions to integrate DocuSign's eSignature services. Lead DocuSign's NetSuite integration project which later won the NetSuite's Partner of the Year award.</p>
+				</li>
+			</ul>
+			<ul>
+				<li>
+					<h2 class="title">ADP</h2>
+					<strong>May 2013 - January 2014</strong>
+				</li>
+				<li>
+					<label class="position">Network Analyst</label>
+				</li>
+				<li>
+					<p> Developed a Python script that uses basic authentication to pull and analyze statistics from BlueCoat WAN Optimizers. Configured Network Architecture using Spectrum and Cisco's Network Compliance Manager. </p>
+			</ul>
+			<h1>Projects</h1>
+			<ul>
 				<li>
 					<h2 class="title">Clora REST API</h2>
 				</li>
 				<li>
-					<label class="position">Full Stack Developer</label>
-					<strong>June 2015 - Present</strong>
+					<p> Developed an API for Clora's web platform. Features included in the API are Integrations from various services as well as matching algorithms for finding consultants based on years of experience, expertise, and various other qualifications.</p>
 				</li>
-				<li>
-					<p> Started a company that helps individuals find work in the life sciences industry.</p>
+				<div class="dialect">
+					<li>Node.js</li>
+					<li>MongoDB</li>
+					<li>Express.js</li>
+					<li>ES6</li>
+					<li>Jenkins</li>
+					<li>Docker</li>
 				</li>
-				<li>
-					<label class="dialect">Node.js</label>
-					<label class="dialect">MongoDB</label>
-					<label class="dialect">Express.js</label>
-					<label class="dialect">ES6</label>
-					<label class="dialect">Jenkins</label>
-					<label class="dialect">Docker</label>
-				</li>
-			</ul> -->
+			</ul>
 
 			<ul>
 				<li>
-					<h2 class="title">DocuSign for Google Chrome Extension</h2>
+					<h2 class="title">DocuSign for Google Chrome</h2>
 				</li>
 				<li>
-					<label class="position">Full Stack Developer</label>
-					<strong>August 2014 - Present</strong>
+					<a href="https://chrome.google.com/webstore/detail/docusign-sign-documents-f/blkboeaihdlecgdjjgkcabbacndbjibc">Check it out</a>
 				</li>
 				<li>
 					<p> Developed a Chrome Extension that allows the user to quickly and easily sign documents or request signatures from others directly from Gmail, Dropbox, and from your desktop using DocuSign's services. </p>
 				</li>
-				<li>
-					<label class="dialect">Node.js</label>
-					<label class="dialect">Redis</label>
-					<label class="dialect">Express.js</label>
-					<label class="dialect">Google APIs</label>
-				</li>
+				<div class="dialect">
+					<li>Node.js</li>
+					<li>Redis</li>
+					<li>Express.js</li>
+					<li>Google APIs</li>
+				</div>
 			</ul>
 
 			<ul>
@@ -85,16 +127,14 @@
 					<h2 class="title">DocuSign SDK for Node.js</h2>
 				</li>
 				<li>
-					<label class="position">Full Stack Developer</label>
-					<strong>August 2014 - Present</strong>
+					<a href="https://github.com/docusign/DocuSign-Node-Client">Check it out</a>
 				</li>
 				<li>
-					<p> Developed an SDK to allow DocuSign customers to integrate eSignature services into their applications easily. Developed the project to an MVP and then open sourced it. </p>
+					<p> Developed an SDK to allow DocuSign customers to integrate eSignature services into their applications easily. Open sourced the package in order to further DocuSign's footprint in the open source community.</p>
 				</li>
-				<li>
-					<label class="dialect">Node.js</label>
-					<label class="dialect">NPM</label>
-				</li>
+				<div class="dialect">
+					<li>Node.js</li>
+				</div>
 			</ul>
 
 			<ul>
@@ -102,18 +142,37 @@
 					<h2 class="title">DocuSign Google for Work Integration</h2>
 				</li>
 				<li>
-					<label class="position">Full Stack Developer</label>
-					<strong>August 2014 - Present</strong>
+					<a href="https://github.com/docusign/DocuSign-Node-Client">Check it out</a>
 				</li>
 				<li>
 					<p> Developed an integration between DocuSign and Google for Work. Integrated both User Models in order to allow corporations provision DocuSign for their employees. </p>
 				</li>
-				<li>
-					<label class="dialect">Node.js</label>
-					<label class="dialect">NPM</label>
-				</li>
+				<div class="dialect">
+					<li>Node.js</li>
+					<li>Redis</li>
+					<li>Express.js</li>
+					<li>Google APIs</li>
+				</div>
 			</ul>
-		</div>
-		
+
+			<ul>
+				<li>
+					<h2 class="title">DocuSign for NetSuite</h2>
+				</li>
+				<li>
+					<a href="https://forms.netsuite.com/app/site/hosting/scriptlet.nl?script=232&deploy=1&compid=NLCORP&h=10c39fdab870d76b741c&custpage_published_solution_id=347&custpage_directory_solution_id=467#">Check it out</a>
+				</li>
+				<li>
+					<p> Developed an integration between DocuSign and Google for Work. Integrated both User Models in order to allow corporations provision DocuSign for their employees. </p>
+				</li>
+				<div class="dialect">
+					<li>SuiteScript</li>
+					<li>Javascript</li>
+				</div>
+			</ul>
+
+		</section>
+		<section class="sidebar-second">
+		</section>
 	</div>
 </body>
