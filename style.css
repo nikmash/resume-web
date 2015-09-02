@@ -24,6 +24,14 @@ h2 {
 	line-height: .5em;
 }
 
+h3 {
+	color: #fafafa;
+	font-family: "TradeGothicNextLTPro-Bold";
+	text-transform: uppercase;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
 html, body {
 	margin: 0;
 	padding: 0;
@@ -86,7 +94,7 @@ header li {
 	display: -webkit-flex;
 	flex-direction: row;
 	-webkit-flex-direction: row;
-	height: calc(100vh - 79px);
+	height: calc(100vh - 78px);
 }
 
 .sidebar-first {
