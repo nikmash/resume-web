@@ -97,7 +97,7 @@ header li {
 	display: -webkit-flex;
 	flex-direction: row;
 	-webkit-flex-direction: row;
-	height: calc(100vh - 78px);
+	height: calc(100vh - 76px);
 }
 
 .sidebar-first {
