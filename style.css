@@ -37,6 +37,7 @@ html, body {
 	margin: 0;
 	padding: 0;
 	color: #333;
+  height: 100%;
 }
 
 a {
@@ -181,4 +182,9 @@ header li {
 	border-radius: 3px;
 	border-width: 1px;
 	display: inline-block;
+}
+
+.appointment-body {
+  height: 100%;
+  background-color: #20457C;
 }
