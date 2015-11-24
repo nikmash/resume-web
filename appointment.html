@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="style.css">
+	<title>Nikhil Mashettiwar</title>
+
+
+</head>
+
+<body class="holy-grail">
+	<header>
+		<label>Nikhil Mashettiwar</label>
+		<div class="info">
+			<ul>
+				<li>Phone: 908-316-4313</li>
+				<li>Location: New York City, NY</li>
+			</ul>
+			<ul>
+				<li>Github: <strong><a href="http://github.com/nikmash">http://github.com/nikmash</a></strong></li>
+				<li>Mail: nikhil@mashettiwar.com</li>
+			</ul>
+		</div>
+	</header>
+	<div class="body">
+    <div id="bookingjs">
+      <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <script type="text/javascript" src="http://cdn.timekit.io/booking-js/v1/booking.min.js" defer></script>
+      <script type="text/javascript">
+        window.timekitBookingConfig = {
+          name: 'Nikhil',
+          email: 'nikhil@mashettiwar.com',
+          apiToken: 'cqpW1JPFYR5cOFgB6or2OVTdb6oOwR2m',
+          calendar: 'c7eec8b9-d9fa-484e-a968-4dd06b80078e',
+          avatar: 'https://lh3.googleusercontent.com/-n0D3s--_rkM/AAAAAAAAAAI/AAAAAAAABVk/CPsCgMQ0zzw/photo.jpg',
+          timekitFindTime: {
+            filters: {
+              and: [
+                {
+                  business_hours: { }
+                },
+                {
+                  exclude_weekend: { }
+                }
+              ],
+              or: [
+                {
+                  specific_time: {
+                    start: '00',
+                    end: '12'
+                  }
+                },
+                {
+                  specific_time: {
+                    start: '13',
+                    end: '24'
+                  }
+                }
+              ]
+            },
+            ignore_all_day_events: true
+          }
+        }
+      </script>
+    </div>
+	</div>
+</body>
