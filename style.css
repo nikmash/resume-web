@@ -188,3 +188,9 @@ header li {
   height: 100%;
   background-color: #20457C;
 }
+
+.body-content {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
