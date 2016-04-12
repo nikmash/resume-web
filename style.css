@@ -105,7 +105,7 @@ header li {
 	padding: 0 12px 0 12px;
 	background-color: #20457C;
 	height: 100%;
-	overflow-y: hidden;
+	overflow-y: scroll;
 	min-width: 140px;
 }
 
