@@ -1,5 +1,4 @@
-FROM gliderlabs/alpine:3.1
-WORKDIR /tmp/resume
-ADD . .
+FROM kyma/docker-nginx
+COPY /src /var/www
 
-CMD rm -rf /www/resume && cp -R /tmp/resume /www/resume
+CMD 'nginx'
